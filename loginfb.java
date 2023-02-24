@@ -21,7 +21,7 @@ public class loginfb {
 		System.out.println(driver.getTitle());
 		Thread.sleep(4000);
 		driver.findElement(By.name("email")).sendKeys("amthshimul@gmail.com");
-		driver.findElement(By.name("pass")).sendKeys("Shuzon@01553239734@Morzina!Razob");
+		driver.findElement(By.name("pass")).sendKeys("Admin@12345");
 		
 		driver.findElement(By.name("login")).click();
 		Thread.sleep(9000);
